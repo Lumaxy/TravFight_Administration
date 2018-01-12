@@ -1,0 +1,27 @@
+main: fr.layce.TravFightAdministration.Main
+name: TravFight_Administration
+version: 1.0
+author: Layce_Lumix
+description: -no desc-
+commands:
+  seeInv:
+    description: Permet de voir l'inventaire du joueur cible
+    usage: /seeinv <Nom du joueur>
+  kick:
+    description: Kick un joueur du serveur
+    usage: /kick <Nom du joueur>
+  vanish:
+    description: rend invisible/visible l'admin qui appel la commande
+    usage: /vanish
+  showlog:
+    description: Montre les 20 derniere logs
+    usage: /showlog
+  day:
+    description: change le temps en jour
+    usage: /day
+  night:
+    description: change le temps en nuity
+    usage: /night
+  gm:
+    description: change le gamemode
+    usage: /gm <gamemode>
